@@ -164,6 +164,27 @@ a{
 	line-height: 18px;
 }
 
+#formulario input{
+	margin: 5px 0;
+	width: 300px;
+	height: 25px;
+	border: solid thin silver;
+	border-radius: 3px;
+}
+
+input::placeholder, textarea::placeholder{
+	color: silver;
+	padding: 5px 0 0 5px;
+}
+
+#formulario textarea{
+	margin: 5px 0;
+	width: 300px;
+	height: 100px;
+	border: solid thin silver;
+	border-radius: 3px;
+}
+
 /*estilos footer*/
 footer{
 	width: 100%;
